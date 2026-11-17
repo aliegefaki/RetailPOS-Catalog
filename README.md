@@ -14,8 +14,8 @@ The catalog uses product barcodes, names, and, when available, brands, pack size
 
 ## Distribution
 
-Release assets will include the machine-readable GZIP-compressed JSON Lines catalog and its signed manifest. The signature is for authenticity and integrity verification; it does not restrict reuse under the data licenses.
+Release assets include the machine-readable GZIP-compressed JSON Lines catalog, its signed manifest, and attribution/licensing notice. The signature is for authenticity and integrity verification; it does not restrict reuse under the data licenses.
 
-No release has been published yet.
+The [initial v1 release](https://github.com/aliegefaki/RetailPOS-Catalog/releases/tag/v1) contains 9,094 unique valid product records (239,161 compressed bytes). Download the [latest manifest](https://github.com/aliegefaki/RetailPOS-Catalog/releases/latest/download/manifest.json) and the matching catalog asset from the same release. The recorded SHA-256 of the v1 catalog is `a7fff8c8ea151f5d20e130302b171891a763309f25a227b447525162096ed8dd`. This is a count of filtered records, not a market coverage percentage.
 
 RetailPOS stores this optional public dataset separately from each retailer's private local database. Installation, updates, and removal do not change retailer records.
